@@ -3,3 +3,6 @@ pydantic~=1.10.13
 sqlmodel~=0.0.8
 SQLAlchemy~=1.4.41
 alembic~=1.13.1
+jose~=1.0.0
+passlib~=1.7.4
+starlette~=0.32.0.post1

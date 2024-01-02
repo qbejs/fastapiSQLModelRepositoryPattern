@@ -13,7 +13,7 @@ class User(SQLModelEntity, table=True):
     username: str
     password: str
     email: str
-    is_active: bool = True
+    is_active: bool = False
     is_superuser: bool = False
     created_at: Optional[datetime] = Field(default=None)
     updated_at: Optional[datetime] = Field(default=None)
