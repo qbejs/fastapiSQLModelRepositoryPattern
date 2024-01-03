@@ -7,6 +7,7 @@ from sqlmodel_repository import SQLModelEntity
 
 class User(SQLModelEntity, table=True):
     """User model"""
+
     __tablename__ = "users"
 
     id: int = Field(index=True, default=None, primary_key=True)
